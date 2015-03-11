@@ -47,3 +47,146 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+.content {
+    padding: 0 15px;
+}
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background copy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    margin: 0;
+    overflow: 
+    auto;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3{
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+.introduction h1, .introduction h3{
+	color:#ffffff;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+.introduction .buttons {
+	margin-top: 1.5rem;
+	text-align: center;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    line-height: 1.33;
+    margin: 0 auto;
+    color: #f37a4b;
+    font-size: 1.125rem;
+    background-color: #f15a29;
+
+}
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
+.cases .content{
+margin:7.875rem;
+color:#1d1e21;
+padding-bottom:5rem;
+text-align: center;
+
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin:1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+.cases .devices h3{
+font-size: 1.563rem;
+margin:2.5rem 0 1.875rem;
+font-weight: 400;
+
+}
+
+.devices > li{
+	float:left;
+	display:inline-block;
+	width:33.33%;
+	
+}
+.social {
+	clear: left;
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+.social .icons li {
+	display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 1.25rem;
+	border: 2px solid #ddd;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.copy {
+	color: #bbb;
+}
