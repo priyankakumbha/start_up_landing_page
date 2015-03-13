@@ -51,9 +51,9 @@ table {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
+/*div {
+    border: 1px solid red;
+}*/
 .content {
     padding: 0 15px;
 }
@@ -151,12 +151,15 @@ font-weight: 400;
 
 }
 
-.devices > li{
-	float:left;
-	display:inline-block;
-	width:33.33%;
-	
-}
+
+.devices > li {
+	display: inline-block;
+	width: 33.3333%;
+	float: left;
+    text-align:center;
+      box-sizing: border-box;
+}	
+
 .social {
 	clear: left;
 	text-align: center;
